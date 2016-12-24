@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/ic_home_24dp"
+        inActiveColor="#fff"
+        activeColor="#fff"
+        title="首页"
+    />
+    <!--<tab-->
+    <!--inActiveColor="#00FF00"-->
+    <!--activeColor="#FF0000"-->
+    <!--id="@+id/jjj"-->
+    <!--title="Recents"-->
+    <!--icon="@mipmap/home"-->
+    <!--barColorWhenSelected="#FF0000" />-->
+    <tab
+        id="@+id/tab_school"
+        icon="@drawable/ic_school_black_24dp"
+        title="校园"
+        barColorWhenSelected="#2dc2dc"
+    />
+    <tab
+        id="@+id/tab_message"
+        icon="@drawable/ic_textsms_black_24dp"
+        title="消息" />
+    <!--<tab-->
+        <!--id="@+id/tab_friends"-->
+        <!--icon="@drawable/ic_people_black_24dp"-->
+        <!--title="通讯录" />-->
+    <tab
+        id="@+id/tab_forum"
+        icon="@drawable/ic_forum_black_24dp"
+        title="论坛" />
+</tabs>

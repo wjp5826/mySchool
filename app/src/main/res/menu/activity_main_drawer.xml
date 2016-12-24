@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_course"
+            android:title="我的课表"/>
+        <item
+            android:id="@+id/nav_grade"
+            android:icon="@drawable/ic_grade"
+            android:title="我的成绩"/>
+        <item
+            android:id="@+id/nav_found"
+            android:icon="@drawable/ic_found"
+            android:title="失物招领"/>
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="教师评价"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="校内点歌"/>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="关于"/>
+        </menu>
+    </item>
+
+</menu>

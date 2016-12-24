@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="主题"
+            android:textColor="#000"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/issue_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请添加一个醒目的标题(不超过20个字)"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="类型"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            />
+
+        <Spinner
+            android:id="@+id/issue_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发布日期"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            />
+
+        <DatePicker
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></DatePicker>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="联系人"
+            android:textColor="#000"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入联系人的姓名"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="电话"
+            android:textColor="#000"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入联系人的电话"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="详细描述"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:lines="5"
+            android:hint="请输入物品的详细特征，如颜色、形状等..."
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="发布"
+            android:layout_margin="20dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+</ScrollView>
